@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Model">
+      <UniqueIdentifier>{3c7e27ed-c223-40bf-8ef4-6ffe0aa24f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\View">
+      <UniqueIdentifier>{38b70592-694d-4ad7-9572-eac7f09d30ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Controller">
+      <UniqueIdentifier>{3a78a2e7-9c07-4d9e-a720-271976a7d315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Model\event">
+      <UniqueIdentifier>{97ecfb90-2d85-4ba6-ace1-ccb2bf5fbfc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Controller">
+      <UniqueIdentifier>{7d94ca45-1584-441f-be7b-2ac6e77c2eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Model">
+      <UniqueIdentifier>{0fb948be-a2ab-4536-bbe3-ab9ce49db4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\View">
+      <UniqueIdentifier>{00eaeafe-af1e-42e6-aa0b-da6ebe1db3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Model\event">
+      <UniqueIdentifier>{a8e9f72f-5a30-47a4-94ca-708dd8ffcb1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Mediator.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ComandReader.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldView.cpp">
+      <Filter>Исходные файлы\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Исходные файлы\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="StateGame.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Исходные файлы\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitEvent.cpp">
+      <Filter>Исходные файлы\Model\event</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Исходные файлы\Model\event</Filter>
+    </ClCompile>
+    <ClCompile Include="AgeEvent.cpp">
+      <Filter>Исходные файлы\Model\event</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroEvents.cpp">
+      <Filter>Исходные файлы\Model\event</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEvents.cpp">
+      <Filter>Исходные файлы\Model\event</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthEvent.cpp">
+      <Filter>Исходные файлы\Model\event</Filter>
+    </ClCompile>
+    <ClCompile Include="WallEvent.cpp">
+      <Filter>Исходные файлы\Model\event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ComandReader.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="StateGame.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Файлы заголовков\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Файлы заголовков\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldView.h">
+      <Filter>Файлы заголовков\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitEvent.h">
+      <Filter>Файлы заголовков\Model\event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Файлы заголовков\Model\event</Filter>
+    </ClInclude>
+    <ClInclude Include="AgeEvent.h">
+      <Filter>Файлы заголовков\Model\event</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEvents.h">
+      <Filter>Файлы заголовков\Model\event</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroEvents.h">
+      <Filter>Файлы заголовков\Model\event</Filter>
+    </ClInclude>
+    <ClInclude Include="WallEvent.h">
+      <Filter>Файлы заголовков\Model\event</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthEvent.h">
+      <Filter>Файлы заголовков\Model\event</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
