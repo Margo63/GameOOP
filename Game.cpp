@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include "Hero.h"
 #include "StateGame.h"
-
+#include "Mediator.h"
 using namespace std;
 
 
@@ -321,11 +321,14 @@ public:
 
 int main()
 {
-	Hero h;
-	h.setX(1);
-	h.setY(1);
+
+	Mediator med;// = Mediator();
+	med.gameProcessing();
+	//Hero h;
+	//h.setX(1);
+	//h.setY(1);
 	
-	StateGame state=StateGame();
+	/*StateGame state = StateGame();
 	string comand;
 	cin >> comand;
 	state.setComand(comand);
@@ -334,7 +337,7 @@ int main()
 	
 	
 
-	state.setHero(h);
+	//state.setHero(h);
 	while (!state.getStatusGame())
 	{	
 		state.getField().drawCanvas(state.getHero());
@@ -347,5 +350,5 @@ int main()
 	}
 	
 	cout << "game over"<<endl;
-	
+	*/
 }
