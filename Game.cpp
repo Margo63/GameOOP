@@ -1,7 +1,7 @@
 ﻿#include <iostream>
-#include "Hero.h"
-#include "StateGame.h"
-#include "Mediator.h"
+#include "/Users/Margo/source/repos/Game/Model/Hero.h"
+#include "/Users/Margo/source/repos/Game/Controller/StateGame.h"
+#include "/Users/Margo/source/repos/Game/Controller/Mediator.h"
 using namespace std;
 
 
@@ -322,33 +322,7 @@ public:
 int main()
 {
 
-	Mediator med;// = Mediator();
+	Mediator med;
 	med.gameProcessing();
-	//Hero h;
-	//h.setX(1);
-	//h.setY(1);
 	
-	/*StateGame state = StateGame();
-	string comand;
-	cin >> comand;
-	state.setComand(comand);
-	state.comandProccesing();
-	
-	
-	
-
-	//state.setHero(h);
-	while (!state.getStatusGame())
-	{	
-		state.getField().drawCanvas(state.getHero());
-		//state.getField().getCanvas();
-		cin >> comand;
-		state.setComand(comand);
-		
-		state.comandProccesing();
-		
-	}
-	
-	cout << "game over"<<endl;
-	*/
 }

@@ -48,64 +48,64 @@
     <ClCompile Include="Game.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Mediator.cpp">
+    <ClCompile Include="Controller\Mediator.cpp">
       <Filter>Исходные файлы\Controller</Filter>
     </ClCompile>
-    <ClCompile Include="ComandReader.cpp">
+    <ClCompile Include="Controller\ComandReader.cpp">
       <Filter>Исходные файлы\Controller</Filter>
     </ClCompile>
-    <ClCompile Include="FieldView.cpp">
+    <ClCompile Include="View\FieldView.cpp">
       <Filter>Исходные файлы\View</Filter>
     </ClCompile>
-    <ClCompile Include="Cell.cpp">
+    <ClCompile Include="Model\Cell.cpp">
       <Filter>Исходные файлы\Model</Filter>
     </ClCompile>
-    <ClCompile Include="Hero.cpp">
+    <ClCompile Include="Model\Hero.cpp">
       <Filter>Исходные файлы\Model</Filter>
     </ClCompile>
-    <ClCompile Include="Field.cpp">
+    <ClCompile Include="Model\Field.cpp">
       <Filter>Исходные файлы\Model</Filter>
     </ClCompile>
-    <ClCompile Include="StateGame.cpp">
+    <ClCompile Include="Controller\StateGame.cpp">
       <Filter>Исходные файлы\Controller</Filter>
     </ClCompile>
-    <ClCompile Include="Keyboard.cpp">
+    <ClCompile Include="Controller\Keyboard.cpp">
       <Filter>Исходные файлы\Controller</Filter>
     </ClCompile>
-    <ClCompile Include="ExitEvent.cpp">
+    <ClCompile Include="Model\Event\ExitEvent.cpp">
       <Filter>Исходные файлы\Model\event</Filter>
     </ClCompile>
-    <ClCompile Include="Event.cpp">
+    <ClCompile Include="Model\Event\Event.cpp">
       <Filter>Исходные файлы\Model\event</Filter>
     </ClCompile>
-    <ClCompile Include="AgeEvent.cpp">
+    <ClCompile Include="Model\Event\AgeEvent.cpp">
       <Filter>Исходные файлы\Model\event</Filter>
     </ClCompile>
-    <ClCompile Include="HeroEvents.cpp">
+    <ClCompile Include="Model\Event\HeroEvents.cpp">
       <Filter>Исходные файлы\Model\event</Filter>
     </ClCompile>
-    <ClCompile Include="MapEvents.cpp">
+    <ClCompile Include="Model\Event\MapEvents.cpp">
       <Filter>Исходные файлы\Model\event</Filter>
     </ClCompile>
-    <ClCompile Include="HealthEvent.cpp">
+    <ClCompile Include="Model\Event\HealthEvent.cpp">
       <Filter>Исходные файлы\Model\event</Filter>
     </ClCompile>
-    <ClCompile Include="WallEvent.cpp">
+    <ClCompile Include="Model\Event\WallEvent.cpp">
       <Filter>Исходные файлы\Model\event</Filter>
     </ClCompile>
-    <ClCompile Include="EventFactory.cpp">
+    <ClCompile Include="Model\Event\FactoryEvent\EventFactory.cpp">
       <Filter>Исходные файлы\Model\event\eventFactory</Filter>
     </ClCompile>
-    <ClCompile Include="AgeEventFactory.cpp">
+    <ClCompile Include="Model\Event\FactoryEvent\AgeEventFactory.cpp">
       <Filter>Исходные файлы\Model\event\eventFactory</Filter>
     </ClCompile>
-    <ClCompile Include="HealthEventFactory.cpp">
+    <ClCompile Include="Model\Event\FactoryEvent\HealthEventFactory.cpp">
       <Filter>Исходные файлы\Model\event\eventFactory</Filter>
     </ClCompile>
-    <ClCompile Include="ExitEventFactory.cpp">
+    <ClCompile Include="Model\Event\FactoryEvent\ExitEventFactory.cpp">
       <Filter>Исходные файлы\Model\event\eventFactory</Filter>
     </ClCompile>
-    <ClCompile Include="WallEventFactory.cpp">
+    <ClCompile Include="Model\Event\FactoryEvent\WallEventFactory.cpp">
       <Filter>Исходные файлы\Model\event\eventFactory</Filter>
     </ClCompile>
   </ItemGroup>
@@ -113,64 +113,64 @@
     <ClInclude Include="resource.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="ComandReader.h">
+    <ClInclude Include="Controller\ComandReader.h">
       <Filter>Файлы заголовков\Controller</Filter>
     </ClInclude>
-    <ClInclude Include="Mediator.h">
+    <ClInclude Include="Controller\Mediator.h">
       <Filter>Файлы заголовков\Controller</Filter>
     </ClInclude>
-    <ClInclude Include="StateGame.h">
+    <ClInclude Include="Controller\StateGame.h">
       <Filter>Файлы заголовков\Controller</Filter>
     </ClInclude>
-    <ClInclude Include="Keyboard.h">
+    <ClInclude Include="Controller\Keyboard.h">
       <Filter>Файлы заголовков\Controller</Filter>
     </ClInclude>
-    <ClInclude Include="Cell.h">
+    <ClInclude Include="Model\Cell.h">
       <Filter>Файлы заголовков\Model</Filter>
     </ClInclude>
-    <ClInclude Include="Field.h">
+    <ClInclude Include="Model\Field.h">
       <Filter>Файлы заголовков\Model</Filter>
     </ClInclude>
-    <ClInclude Include="Hero.h">
+    <ClInclude Include="Model\Hero.h">
       <Filter>Файлы заголовков\Model</Filter>
     </ClInclude>
-    <ClInclude Include="FieldView.h">
+    <ClInclude Include="View\FieldView.h">
       <Filter>Файлы заголовков\View</Filter>
     </ClInclude>
-    <ClInclude Include="ExitEvent.h">
+    <ClInclude Include="Model\Event\ExitEvent.h">
       <Filter>Файлы заголовков\Model\event</Filter>
     </ClInclude>
-    <ClInclude Include="Event.h">
+    <ClInclude Include="Model\Event\Event.h">
       <Filter>Файлы заголовков\Model\event</Filter>
     </ClInclude>
-    <ClInclude Include="AgeEvent.h">
+    <ClInclude Include="Model\Event\AgeEvent.h">
       <Filter>Файлы заголовков\Model\event</Filter>
     </ClInclude>
-    <ClInclude Include="MapEvents.h">
+    <ClInclude Include="Model\Event\MapEvents.h">
       <Filter>Файлы заголовков\Model\event</Filter>
     </ClInclude>
-    <ClInclude Include="HeroEvents.h">
+    <ClInclude Include="Model\Event\HeroEvents.h">
       <Filter>Файлы заголовков\Model\event</Filter>
     </ClInclude>
-    <ClInclude Include="WallEvent.h">
+    <ClInclude Include="Model\Event\WallEvent.h">
       <Filter>Файлы заголовков\Model\event</Filter>
     </ClInclude>
-    <ClInclude Include="HealthEvent.h">
+    <ClInclude Include="Model\Event\HealthEvent.h">
       <Filter>Файлы заголовков\Model\event</Filter>
     </ClInclude>
-    <ClInclude Include="EventFactory.h">
+    <ClInclude Include="Model\Event\FactoryEvent\EventFactory.h">
       <Filter>Файлы заголовков\Model\event\eventFactory</Filter>
     </ClInclude>
-    <ClInclude Include="AgeEventFactory.h">
+    <ClInclude Include="Model\Event\FactoryEvent\AgeEventFactory.h">
       <Filter>Файлы заголовков\Model\event\eventFactory</Filter>
     </ClInclude>
-    <ClInclude Include="HealthEventFactory.h">
+    <ClInclude Include="Model\Event\FactoryEvent\HealthEventFactory.h">
       <Filter>Файлы заголовков\Model\event\eventFactory</Filter>
     </ClInclude>
-    <ClInclude Include="ExitEventFactory.h">
+    <ClInclude Include="Model\Event\FactoryEvent\ExitEventFactory.h">
       <Filter>Файлы заголовков\Model\event\eventFactory</Filter>
     </ClInclude>
-    <ClInclude Include="WallEventFactory.h">
+    <ClInclude Include="Model\Event\FactoryEvent\WallEventFactory.h">
       <Filter>Файлы заголовков\Model\event\eventFactory</Filter>
     </ClInclude>
   </ItemGroup>
